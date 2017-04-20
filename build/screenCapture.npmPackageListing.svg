@@ -1,21 +1,21 @@
 <svg height="286" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="286" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-20 20:37:32 +0000    11518 bytes  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-20 20:37:32 +0000     3799 bytes  README.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-20 20:37:32 +0000       98 bytes  gulp-tasks/default.js</tspan>
-<tspan x="10" y="74">  3.  2017-04-20 20:37:32 +0000     1857 bytes  index.js</tspan>
-<tspan x="10" y="90">  4.  2017-04-20 20:37:32 +0000      939 bytes  package.json</tspan>
-<tspan x="10" y="106">  5.  2017-04-20 20:37:32 +0000       68 bytes  test/coffeeScript/coffee.coffee</tspan>
-<tspan x="10" y="122">  6.  2017-04-20 20:37:32 +0000       57 bytes  test/filterOutFiles/task.js</tspan>
-<tspan x="10" y="138">  7.  2017-04-20 20:37:32 +0000       63 bytes  test/includeRequireExtensions/task.js</tspan>
-<tspan x="10" y="154">  8.  2017-04-20 20:37:32 +0000       53 bytes  test/includeRequireExtensions/task2.jscript</tspan>
-<tspan x="10" y="170">  9.  2017-04-20 20:37:32 +0000       75 bytes  test/noDeps/noDeps.js</tspan>
-<tspan x="10" y="186"> 10.  2017-04-20 20:37:32 +0000       62 bytes  test/passingGulpAndOptionsToTasks/test.js</tspan>
-<tspan x="10" y="202"> 11.  2017-04-20 20:37:32 +0000       63 bytes  test/subtasks/annotate/add.js</tspan>
-<tspan x="10" y="218"> 12.  2017-04-20 20:37:32 +0000       67 bytes  test/subtasks/annotate/docs/comment.js</tspan>
-<tspan x="10" y="234"> 13.  2017-04-20 20:37:32 +0000       66 bytes  test/subtasks/annotate/remove.js</tspan>
-<tspan x="10" y="250"> 14.  2017-04-20 20:37:32 +0000     4142 bytes  test/test.js</tspan>
-<tspan x="10" y="266"> 15.  2017-04-20 20:37:32 +0000      109 bytes  test/withDeps/withDeps.js</tspan>
+<tspan x="10" y="26">  0.  2017-04-20 20:38:36 +0000    11518 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-20 20:38:36 +0000     3799 bytes  README.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-20 20:38:36 +0000       98 bytes  gulp-tasks/default.js</tspan>
+<tspan x="10" y="74">  3.  2017-04-20 20:38:36 +0000     1857 bytes  index.js</tspan>
+<tspan x="10" y="90">  4.  2017-04-20 20:38:36 +0000      939 bytes  package.json</tspan>
+<tspan x="10" y="106">  5.  2017-04-20 20:38:36 +0000       68 bytes  test/coffeeScript/coffee.coffee</tspan>
+<tspan x="10" y="122">  6.  2017-04-20 20:38:36 +0000       57 bytes  test/filterOutFiles/task.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-20 20:38:36 +0000       63 bytes  test/includeRequireExtensions/task.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-20 20:38:36 +0000       53 bytes  test/includeRequireExtensions/task2.jscript</tspan>
+<tspan x="10" y="170">  9.  2017-04-20 20:38:36 +0000       75 bytes  test/noDeps/noDeps.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-20 20:38:36 +0000       62 bytes  test/passingGulpAndOptionsToTasks/test.js</tspan>
+<tspan x="10" y="202"> 11.  2017-04-20 20:38:36 +0000       63 bytes  test/subtasks/annotate/add.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-20 20:38:36 +0000       67 bytes  test/subtasks/annotate/docs/comment.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-20 20:38:36 +0000       66 bytes  test/subtasks/annotate/remove.js</tspan>
+<tspan x="10" y="250"> 14.  2017-04-20 20:38:36 +0000     4142 bytes  test/test.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-20 20:38:36 +0000      109 bytes  test/withDeps/withDeps.js</tspan>
 </text>
 </svg>
