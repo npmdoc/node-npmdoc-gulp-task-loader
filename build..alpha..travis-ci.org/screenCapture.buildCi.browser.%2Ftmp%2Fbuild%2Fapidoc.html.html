@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,15 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-    >gulp-task-loader (v1.4.4)</a>
+    <a>gulp-task-loader (v1.4.4)</a>
 </h1>
 <h4>Load gulp tasks from folder</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-task-loader">module gulp-task-loader</a><ol>
 
@@ -105,7 +100,7 @@
 	}
 
 	function loadTask(parents, task) {
-		var modulePath = path.join(process.cwd(), opts.dir, parents.join(path.sep) || &#x27;&#x27;, task);
+		var modulePath = path.join(process.cwd(), opts.dir, parents.join(path.sep) || '', task);
 		var func = require(modulePath);
 		var dependencies = func.dependencies || [];
 		var taskName = stripExtension(task);
@@ -114,9 +109,9 @@
 			opts: opts
 		};
 
-		// If subtask -&#x3e; namespace: &#x22;parent:child&#x22;
+		// If subtask -&gt; namespace: "parent:child"
 		if (parents.length) {
-			taskName = parents.join(&#x27;:&#x27;) + &#x27;:&#x27; + taskName;
+			taskName = parents.join(':') + ':' + taskName;
 		}
 
 		gulp.task(taskName, dependencies, func.bind(context));
@@ -126,7 +121,7 @@
 		var file = path.basename(currentPath);
 		var stats = fs.lstatSync(currentPath);
 
-		if (stats.isFile() &#x26;&#x26; byExtension(file)) {
+		if (stats.isFile() &amp;&amp; byExtension(file)) {
 			loadTask(currentPath.split(path.sep).slice(opts.dir.split(path.sep).length, -1), file);
 		}
 		else if (stats.isDirectory()) {
@@ -151,3 +146,4 @@
     ]
 </div>
 </div>
+</body></html>
