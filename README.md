@@ -1,6 +1,6 @@
 # npmdoc-gulp-task-loader
 
-#### api documentation for  gulp-task-loader (v1.4.4)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-task-loader.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-task-loader) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-task-loader.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-task-loader)
+#### basic api documentation for  [gulp-task-loader (v1.4.4)](https://github.com/hontas/gulp-task-loader#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-task-loader.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-task-loader) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-task-loader.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-task-loader)
 
 #### Load gulp tasks from folder
 
@@ -21,29 +21,16 @@
 ```json
 
 {
-    "name": "gulp-task-loader",
-    "repository": "https://github.com/hontas/gulp-task-loader.git",
-    "version": "1.4.4",
+    "author": {
+        "name": "Pontus Lundin"
+    },
+    "bugs": {
+        "url": "https://github.com/hontas/gulp-task-loader/issues"
+    },
+    "dependencies": {
+        "object-assign": "^4.0.1"
+    },
     "description": "Load gulp tasks from folder",
-    "main": "index.js",
-    "scripts": {
-        "major": "npm version major -m 'New major version %s' && npm publish",
-        "minor": "npm version minor -m 'New minor version %s' && npm publish",
-        "patch": "npm version patch -m 'New patch version %s' && npm publish",
-        "postpublish": "git push --follow-tags",
-        "test": "eslint . && mocha --reporter dot",
-        "tdd": "npm run test -- --watch --reporter nyan"
-    },
-    "keywords": [
-        "gulp",
-        "task",
-        "loader"
-    ],
-    "author": "Pontus Lundin",
-    "license": "MIT",
-    "peerDependencies": {
-        "gulp": "*"
-    },
     "devDependencies": {
         "chai": "^3.5.0",
         "coffee-script": "^1.10.0",
@@ -51,9 +38,44 @@
         "gulp": "^3.9.1",
         "mocha": "^2.4.5"
     },
-    "dependencies": {
-        "object-assign": "^4.0.1"
-    }
+    "directories": {},
+    "dist": {
+        "shasum": "58ead58179e7adca261a28b96146b254ebb660e8",
+        "tarball": "https://registry.npmjs.org/gulp-task-loader/-/gulp-task-loader-1.4.4.tgz"
+    },
+    "gitHead": "1e707b4d8f656c3932185a3f977e45f3b0f459f9",
+    "homepage": "https://github.com/hontas/gulp-task-loader#readme",
+    "keywords": [
+        "gulp",
+        "task",
+        "loader"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "hontas"
+        }
+    ],
+    "name": "gulp-task-loader",
+    "optionalDependencies": {},
+    "peerDependencies": {
+        "gulp": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hontas/gulp-task-loader.git"
+    },
+    "scripts": {
+        "major": "npm version major -m 'New major version %s' && npm publish",
+        "minor": "npm version minor -m 'New minor version %s' && npm publish",
+        "patch": "npm version patch -m 'New patch version %s' && npm publish",
+        "postpublish": "git push --follow-tags",
+        "tdd": "npm run test -- --watch --reporter nyan",
+        "test": "eslint . && mocha --reporter dot"
+    },
+    "version": "1.4.4",
+    "bin": {}
 }
 ```
 
